@@ -38,3 +38,8 @@ terraform.rc
 # VSCODE
 *.code-workspace
 .history/
+
+# Vagrant
+# Vagrant specific files
+.vagrant/
+Vagrantfile.local
