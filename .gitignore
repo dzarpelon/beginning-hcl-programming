@@ -43,3 +43,25 @@ terraform.rc
 # Vagrant specific files
 .vagrant/
 Vagrantfile.local
+
+# Go specific files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go modules
+vendor/
+
+# Go build artifacts
+*.a
+*.o
+*.cgo1.go
+*.cgo2.c
