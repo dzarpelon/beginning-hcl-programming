@@ -10,5 +10,5 @@ Many HashiCorp tools, such as Terraform, Vault, and Consul, are written in Go. H
 
 ### Two rules of Go
 
-- Import only the packages that will be used. 
-- The bracket must stay after the name of the funcion
+- Import only the packages that will be used. (if a non used package is imported, the program will raise an exception)
+- The bracket must stay after the name of the function
